@@ -1,0 +1,36 @@
+.pagination {
+    list-style-type: none;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .pagination-item {
+    display: inline-block;
+    color: #ddd;
+    margin: 10px;
+  }
+  .pagination-item button {
+    text-decoration: none;
+    color: #2c3e50;
+    border: none;
+    cursor: pointer;
+    background: none;
+    padding: 5px 10px;
+  }
+  .pagination-item button.disabled {
+    color: #ccc;
+    cursor: no-drop;
+  }
+  .pagination-item .active {
+    background-color: #141E30;
+    color: #ffffff !important;
+    font-weight: bold;
+  }
+  button[disabled], html input[disabled] {
+    color: lightgray;
+  }
+  @media (max-width: 500px) {
+    .pagination-item {
+      margin: 5px;
+    }
+  }
