@@ -1,0 +1,36 @@
+.formWrapper {
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #457fca;
+}
+.form {
+    width: 40%;
+    margin: auto;
+    padding: 40px 30px;
+    background-color: #ffffff;
+}
+input[type='text'], select {
+    outline: none;
+}
+.searchBtn {
+    outline: none;
+    border: none;
+    padding: 8px 25px;
+    background-color: #606c88;
+    color: #ffffff;
+}
+@media (max-width: 1200px) {
+    .form {
+        width: 50%;
+    }
+}
+@media (max-width: 1000px) {
+    .form {
+        width: 70%;
+    }
+}
+@media (max-width: 600px) {
+    .form {
+        width: 90%;
+    }
+}

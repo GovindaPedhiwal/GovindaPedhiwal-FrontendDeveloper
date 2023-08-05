@@ -1,0 +1,12 @@
+.footer {
+    background-color: #99f2c8;
+    padding: 20px 0px;
+}
+.footer p {
+    margin: 0px;
+    font-size: 21px;
+    font-weight: 700;
+}
+.heart-icon {
+    color: #c94b4b;
+}
